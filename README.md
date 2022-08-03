@@ -10,3 +10,5 @@ A possible use of this vulnerability would be a message to a Service Worker, whi
 > * Edge & Chrome: 103.0.1264.77
 > * Safari & Safari Technoloy Preview: 15.6 (17613.3.9.1.5) & 150 (Safari 16.0, WebKit 17614.1.22.1.2)
 > * Firefox: 103.0.1  
+
+^ This may also affect older browsers, but I have not yet confirmed this
