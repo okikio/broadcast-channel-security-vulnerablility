@@ -1,6 +1,10 @@
 const app = document.querySelector('#app');
 
-new Worker(new URL('./worker.js', import.meta.url));
+const WorkerUrl = new URL('./worker.js', import.meta.url);
+const WorkerContent = new Blob([
+  await fetch(WorkerUrl).then(res => res.arrayBuffer())
+], { type: 'application/javascript' });
+new Worker(URL.createObjectURL(WorkerContent));
 
 const broadchannel = new BroadcastChannel('broad-cast');
 broadchannel.onmessage = ({ data }) => {
