@@ -7,7 +7,7 @@ There is a vulnerability in Broadcast Channel which allows for possible arbritra
 A possible use of this vulnerability would be a message to a Service Worker, which could cuase all sorts of problems, e.g. messing up caching strategy depending on how the websites/web apps code is structured and how the nepharious individual chooses to use this vulnerability.
 
 > Note: this affects all browser vendors as of August 2nd, 2022
-> * Edge & Chrome: 103.0.1264.77
+> * Edge & Chrome: 103.0.1264.77 & 104.0.5112.79
 > * Safari & Safari Technoloy Preview: 15.6 (17613.3.9.1.5) & 150 (Safari 16.0, WebKit 17614.1.22.1.2)
 > * Firefox: 103.0.1  
 
