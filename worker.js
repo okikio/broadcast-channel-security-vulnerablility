@@ -1,4 +1,4 @@
-export const code = (msg: string) => `
+const code = (msg) => `
 let broadchannel = new BroadcastChannel('broad-cast');
 broadchannel.onmessage = ({ data }) => {
   console.log(data);
