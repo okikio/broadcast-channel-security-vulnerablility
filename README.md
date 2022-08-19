@@ -16,7 +16,7 @@ After reporting this vulnerability to Google and Firefox, they've both closed th
 
 > On firefox you can limit the reach of Broadcast Channel to only the Worker that created it by using `data` urls to create the Worker as in Firefox `data` urls are treated as a different origin. If `URL.createObjectURL(...)` is used, then Firefox will still be vulnerable. Using `data` urls to create Workers also blocks Broadcast Channel from working within that Worker not just the eval. 
 
-You can view this vulnerability on Codepen: https://codepen.io/okikio/pen/vYRvqRy
+You can check out a demo of this vulnerability on Codepen: https://codepen.io/okikio/pen/vYRvqRy
 
 
 > **Note**: this affects all browser vendors as of August 2nd, 2022 EST
