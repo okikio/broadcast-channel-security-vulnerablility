@@ -12,7 +12,7 @@ I discovered this issue while trying to use Broadcast Channel to communicate acr
 
 ### Updates...
 
-After reporting this vulnerability to Chrome, Safari and Firefox, they've both closed the cases I opened with the repsonse being that's what is expected from the how the spec is written, and there isn't much they can do to actually mitigate the risk.
+After reporting this vulnerability to Chrome, Safari and Firefox, they've all closed the cases I opened with the repsonse being that's what is expected from the how the spec is written, and there isn't much they can do to actually mitigate the risk.
 
 > On firefox you can limit the reach of Broadcast Channel to only the Worker that created it by using `data` urls to create the Worker, as in Firefox `data` urls are treated as a different origin. If `URL.createObjectURL(...)` is used, Firefox will still be vulnerable. Using `data` urls to create Workers also blocks Broadcast Channel from working within that Worker not just the eval. 
 
