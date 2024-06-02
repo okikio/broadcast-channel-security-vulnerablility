@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "serve"
+    "start": "vite"
   },
   "devDependencies": {
-    "serve": "^14.0.1"
+    "vite": "^5.2.12"
   }
 }
